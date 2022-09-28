@@ -5,7 +5,7 @@ const About = () => {
 		<div
 			name="about"
 			id="about"
-			className="  bg-[#0a192f] w-full  h-fit md:h-screen text-gray-300"
+			className="  bg-[#0a192f] w-full h-screen text-gray-300"
 		>
 			<div className="flex flex-col justify-center items-center w-full h-full">
 				<div className="max-w-[1000px] w-full grid grid-cols-2 gap-8">

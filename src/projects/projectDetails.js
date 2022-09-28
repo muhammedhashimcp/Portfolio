@@ -7,6 +7,7 @@ let data = [
 		desc: 'This is a react application used to add activities we want to perform in a particular month.',
 		githubLink: 'https://github.com/Prethush/Activity-Tracker',
 		liveLink: 'https://activity-tracker-kt.netlify.app/',
+		/* A key value pair. */
 		techUsed: 'React, Redux, Tailwindcss',
 	},
 	{
@@ -67,7 +68,7 @@ let data = [
 		img: '/projects/project8.png',
 		id: 1007,
 		title: 'Zaptos',
-		desc: 'This is an online shoe store application. Front is created using EJS view engine and backend using Node and Express. MongoDB is used as Database',
+		desc: 'This is an online shoe store application. Frontend is created using EJS view engine and backend using Node and Express. MongoDB is used as Database',
 		githubLink: 'https://github.com/Prethush/zapatos',
 		liveLink: 'https://zapatos-stores.xyz/',
 		techUsed:

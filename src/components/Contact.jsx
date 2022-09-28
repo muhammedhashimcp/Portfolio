@@ -24,7 +24,7 @@ const Contact = () => {
 					className="bg-[#ccd6f6] p-2"
 					type="text"
 					placeholder="Full Name"
-					name="name"
+					name="name" 
 				/>
 				<input
 					className="my-4 p-2 bg-[#ccd6f6]"

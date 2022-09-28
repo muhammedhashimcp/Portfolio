@@ -1,8 +1,8 @@
 import React from 'react';
-import data from '../assets/data';
+import data from '../projects/projectDetails';
 
 export default function Projects() {
-	return (
+	return ( 
 		<section
 			id="projects"
 			className="bg-gray-200 text-custom flex justify-center"
@@ -10,7 +10,7 @@ export default function Projects() {
 			<div className="w-large lg:w-medium 2xl:w-custom pb-24">
 				<h2 className="text-4xl font-bold">Projects</h2>
 				<article className="flex flex-wrap pt-12 justify-center md:justify-start">
-					{data.map((d) => {
+					{data.map((d) => { 
 						return (
 							<div
 								key={d.id}

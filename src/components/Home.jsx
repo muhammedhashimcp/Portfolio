@@ -17,9 +17,9 @@ const Home = () => {
 			className="w-full h-fit md:h-screen pt-12  flex justify-center items-center bg-black"
 		>
 			{/* container */}
-			<div className="max-w-[1000px] mx-auto px-8 flex flex-col md:justify-center h-full">
-				<div className="mt-12 pt-12 md:pt-0 md:mt-0"></div>
-
+			<div className="max-w-[1000px] mx-auto px-0 flex flex-col justify-center h-full">
+				{/* <div className="mt-12 pt-12 md:pt-0 md:mt-0"></div> */}
+			
 				<p className="text-pink-600">Hi, my name is</p>
 				<h1 className="text-4xl md:text-6xl font-bold text-[#ccd6f6] ">
 					Muhammed Hashim
@@ -38,7 +38,6 @@ const Home = () => {
 						/>
 					</span>
 				</h2>
-
 				<p className="text-white py-4 max-w-[700px]">
 					I’m a full-stack developer specializing in building (and
 					occasionally designing) exceptional digital experiences.

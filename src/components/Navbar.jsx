@@ -4,38 +4,30 @@ import {
 	FaTimes,
 	FaGithub,
 	FaLinkedin,
-	FaFacebook,
 
 } from "react-icons/fa";
-// import {
-// 	useFonts,
-// 	DancingScript_400Regular,
-// 	DancingScript_500Medium,
-// 	DancingScript_600SemiBold,
-	// DancingScript_700Bold,
-// } from '@expo-google-fonts/dancing-script';
+
 import { CgFileDocument } from 'react-icons/cg';
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
-import Logo from "../assets/logo.png";
+import Logo from "../skills/logo.png";
 import { Link } from "react-scroll";
 const Navbar = () => {
-// 	 let [fontsLoaded] = useFonts({
-// 			DancingScript_400Regular,
-// 			DancingScript_500Medium,
-// 			DancingScript_600SemiBold,
-// 			DancingScript_700Bold,
-// 		});
-//  let fontSize = 24;
-//  let paddingVertical = 6;
+
+ let fontSize = 24;
+ let paddingVertical = 6;
 	const [nav, setNav] = useState(false);
 	const handleClick = () => setNav(!nav);
 	return (
 		<div className="fixed w-full h-[80px] flex justify-between items-center px-10 bg-[#0a192f] text-gray-300">
-			<div>
+			{/* <div>
 				<img src={Logo} alt="Logo Img" style={{ width: '50px' }} />
-			</div>
-			
+			</div> */}
+			{/* //and you can use in any where */}
+			{/* animate-ping */}
+			<h1 className=" font-DancingScript text-4xl font-bold text-pink-600">
+				MH
+			</h1>
 			{/* Menu */}
 			<ul className="hidden  md:flex font-bold">
 				<li>
@@ -69,7 +61,6 @@ const Navbar = () => {
 				{!nav ? <FaBars /> : <FaTimes />}
 			</div>
 			{/* Mobile menu */}
-
 			<ul
 				className={
 					!nav
@@ -132,7 +123,6 @@ const Navbar = () => {
 					</Link>
 				</li>
 			</ul>
-
 			{/* Social Icons */}
 			<div className="hidden lg:flex fixed flex-col top-[35%] left-0">
 				<ul>
