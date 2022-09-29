@@ -5,7 +5,7 @@ import skills from '../skillsDetails';
 let reverse = 'translate-x-6';
 // let reverse="transform: translateX(-50%)";
 
-const Skills = () => {
+const FamiliarWith = () => {
 	return (
 		<div
 			className=" w-full   pb-10  bg-[#0a192f] text-gray-300"
@@ -71,4 +71,4 @@ const Skills = () => {
 	);
 };
 
-export default Skills;
+export default FamiliarWith;

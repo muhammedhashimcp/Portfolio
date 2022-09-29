@@ -10,7 +10,7 @@ module.exports = {
 				Montserrat: ['Montserrat', 'sans-serif'],
 				Raleway: ['Raleway', 'sans-serif'],
 				DancingScript:[ 'Dancing Script', "cursive"]
-			}, //end of fontFamily
+			}
 		},
 	},
 	plugins: [],

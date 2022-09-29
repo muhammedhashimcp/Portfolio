@@ -1,23 +1,12 @@
 import React from 'react';
-import WorkImg from '../skills/workImg.jpeg';
-import RealEstate from '../skills/realestate.jpg';
+import WorkImg from '../skillsImg/workImg.jpeg';
 
-import HTML from '../skills/html.png';
-import CSS from '../skills/css.png';
-import JavaScript from '../skills/javascript.png';
-import ReactImg from '../skills/react.png';
-import Node from '../skills/node.png';
-import FireBase from '../skills/firebase.png';
-import AWS from '../skills/aws.png';
-import GitHub from '../skills/github.png';
-import Tailwind from '../skills/tailwind.png';
-import Mongo from '../skills/mongo.png';
 import { FaGithub, FaLinkedin, FaEye, FaGlobe } from 'react-icons/fa';
-import { GoGlobe } from 'react-icons/go';
 import { Link } from 'react-scroll';
 import { HiArrowNarrowRight, HiArrowNarrowLeft } from 'react-icons/hi';
+const RealEstate=''
 
-const Work = () => {
+const Work = () => { 
 	return (
 		<div
 			name="work"

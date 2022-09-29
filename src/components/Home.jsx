@@ -17,9 +17,9 @@ const Home = () => {
 			className="w-full h-fit md:h-screen pt-12  flex justify-center items-center bg-black"
 		>
 			{/* container */}
-			<div className="max-w-[1000px] mx-auto px-0 flex flex-col justify-center h-full">
-				{/* <div className="mt-12 pt-12 md:pt-0 md:mt-0"></div> */}
-			
+			<div className="max-w-[1000px] mx-auto px-4 pt-auto flex flex-col justify-center h-full">
+				<div className="mt-12 pt-12 md:pt-0 md:mt-0"></div>
+
 				<p className="text-pink-600">Hi, my name is</p>
 				<h1 className="text-4xl md:text-6xl font-bold text-[#ccd6f6] ">
 					Muhammed Hashim
@@ -45,62 +45,65 @@ const Home = () => {
 					applications.
 				</p>
 				<div>
-					<div className="flex lg:hidden  mt-10  top-[35%] ">
-						<ul className="flex space-x-5">
-							<li className="w-[60px] h-[60px] flex justify-between items-center  bg-blue-600">
-								<a
-									className="flex justify-between items-center w-full text-gray-300"
-									target="_blank"
-									rel="noreferrer"
-									href="https://www.linkedin.com/in/muhammed-anas-ak/"
-								>
-									<FaLinkedin size={30} />
-								</a>
-							</li>
-							<li className="w-[60px] h-[60px] flex justify-between items-center  bg-[#333333]">
-								<a
-									className="flex justify-between items-center w-full text-gray-300"
-									target="_blank"
-									rel="noreferrer"
-									href="https://github.com/AnasMuhammedAK"
-								>
-									<FaGithub size={30} />
-								</a>
-							</li>
-							<li className="w-[60px] h-[60px] flex justify-between items-center  bg-[#6fc2b0]">
-								<Link to="contact" smooth={true} duration={500}>
-									<a
-										className="flex justify-between items-center w-full text-gray-300"
-										href="/"
-									>
-										<HiOutlineMail size={30} />
-									</a>
-								</Link>
-							</li>
-							<li className="w-[160px] h-[60px] flex justify-between items-center  bg-[#565f69]">
-								<a
-									className="flex justify-between items-center w-full text-gray-300"
-									href="/resume.pdf"
-									download={true}
-								>
-									Resume <BsFillPersonLinesFill size={30} />
-								</a>
-							</li>
-						</ul>
-					</div>
-					{/* button  */}
+					{/* social links */}
 					<div className="flex flex-col ">
 						<Link
-							to="contact"
+							to="projects"
 							smooth={true}
 							duration={1000}
-							className="group border-2 py-3 px-3 md:px-6 my-3 flex items-center justify-center text-white w-fit cursor-pointer"
+							className="group border-2 py-3 px-3 md:px-6 my-2 flex items-center justify-center text-white w-fit cursor-pointer"
 						>
-							Contact me
+							My Projects
 							<span className="group-hover:rotate-90 duration-500">
 								<HiArrowNarrowRight className="ml-3 text-white" />
 							</span>
 						</Link>
+						<a
+							href="/Sreeshil-CK-Resume.pdf"
+							download={true}
+							className="lg:hidden group border-2 py-3 px-6 my-2  flex items-center justify-center text-white w-fit"
+						>
+							Resume
+							<span className="">
+								<CgFileDocument
+									size={20}
+									className="ml-3 text-white"
+								/>
+							</span>
+						</a>
+					</div>
+					{/* social icons */}
+					<div className="flex mt-8 lg:hidden  items-center">
+						<ul className="flex ">
+							<li className="w-[20px] h-[60px]   duration-500 text-center">
+								<a
+									href="https://www.linkedin.com/in/sreeshil-ck/"
+									target="_blank"
+									rel="noreferrer"
+									className="text-white"
+								>
+									<FaLinkedin size={30} />
+								</a>
+							</li>
+							<li className="w-[20px] h-[60px]   duration-500 mx-4">
+								<a
+									href="https://github.com/sreeshilck/"
+									target="_blank"
+									rel="noreferrer"
+									className="text-white"
+								>
+									<FaGithub size={30} />
+								</a>
+							</li>
+							<li className="w-[20px] h-[60px]  duration-500">
+								<a
+									href="mailto:sreeshilck777@gmail.com"
+									className="text-white"
+								>
+									<HiOutlineMail size={32} />
+								</a>
+							</li>
+						</ul>
 					</div>
 				</div>
 			</div>

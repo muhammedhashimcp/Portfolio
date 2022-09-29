@@ -9,8 +9,6 @@ import {
 
 import { CgFileDocument } from 'react-icons/cg';
 import { HiOutlineMail } from "react-icons/hi";
-import { BsFillPersonLinesFill } from "react-icons/bs";
-import Logo from "../skills/logo.png";
 import { Link } from "react-scroll";
 const Navbar = () => {
 
@@ -20,11 +18,7 @@ const Navbar = () => {
 	const handleClick = () => setNav(!nav);
 	return (
 		<div className="fixed w-full h-[80px] flex justify-between items-center px-10 bg-[#0a192f] text-gray-300">
-			{/* <div>
-				<img src={Logo} alt="Logo Img" style={{ width: '50px' }} />
-			</div> */}
-			{/* //and you can use in any where */}
-			{/* animate-ping */}
+		
 			<h1 className=" font-DancingScript text-4xl font-bold text-pink-600">
 				MH
 			</h1>
@@ -46,8 +40,8 @@ const Navbar = () => {
 					</Link>
 				</li>
 				<li>
-					<Link to="work" smooth={true} duration={500}>
-						Work
+					<Link to="projects" smooth={true} duration={500}>
+						Projects
 					</Link>
 				</li>
 				<li>
@@ -104,11 +98,11 @@ const Navbar = () => {
 					{' '}
 					<Link
 						onClick={handleClick}
-						to="work"
+						to="Projects"
 						smooth={true}
 						duration={500}
 					>
-						Work
+						Projects
 					</Link>
 				</li>
 				<li className="py-6 text-4xl">
