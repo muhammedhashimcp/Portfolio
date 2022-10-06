@@ -8,19 +8,19 @@ import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import Work from "./components/Work";
 import FamiliarWith from "./components/FamiliarWith";
-
+import { Route, Routes } from "react-router-dom";
+// import {Routes,Route}
 function App() {
 	return (
-		<div>
+		<>
 			<Navbar />
 			<Home />
 			<About />
 			<Skills />
-			<FamiliarWith />
 			<Details />
 			<Contact />
-			<Footer /> 
-		</div>
+			<Footer />
+		</>
 	);
 }
 
