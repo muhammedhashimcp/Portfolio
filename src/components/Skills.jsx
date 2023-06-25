@@ -2,9 +2,7 @@ import React from 'react';
 import {  Route, Routes } from 'react-router-dom';
 import FamiliarWith from './FamiliarWith';
 import SkillSet from './SkillSet';
-import InterestedToLearn from './InterestedToLearn';
 import ToolsUsed from './ToolsUsed';
-
 
 const Skills = () => {
 	return (

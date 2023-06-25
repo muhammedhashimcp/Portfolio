@@ -1,9 +1,7 @@
 import React from 'react';
 import { HiArrowNarrowRight } from 'react-icons/hi';
-// import { HiArrowNarrowRight } from 'react-icons/hi';
-import { FaGithub, FaLinkedin, FaEye } from 'react-icons/fa';
+import { FaGithub, FaLinkedin} from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
-import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { CgFileDocument } from 'react-icons/cg';
 import { Typewriter } from 'react-simple-typewriter';
 
@@ -13,13 +11,11 @@ const Home = () => {
 	return (
 		<div
 			name="home"
-			// bg-[#0a192f]
 			className="w-full h-fit md:h-screen pt-12  flex justify-center items-center bg-black"
 		>
 			{/* container */}
 			<div className="max-w-[1000px] mx-auto px-4 pt-auto flex flex-col justify-center h-full">
 				<div className="mt-12 pt-12 md:pt-0 md:mt-0"></div>
-
 				<p className="text-pink-600">Hi, my name is</p>
 				<h1 className="text-4xl md:text-6xl font-bold text-[#ccd6f6] ">
 					Muhammed Hashim

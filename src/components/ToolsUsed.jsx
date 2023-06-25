@@ -1,9 +1,7 @@
 import React from 'react';
-import { HiArrowNarrowLeft, HiArrowNarrowRight } from 'react-icons/hi';
+import { HiArrowNarrowLeft} from 'react-icons/hi';
 import { NavLink } from 'react-router-dom';
-// import skills from '../skillsDetails';
 import toolsUsed from '../data/toolsUsed'
-
 
 const ToolsUsed = () => {
 	return (

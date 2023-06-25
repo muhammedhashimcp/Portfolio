@@ -15,7 +15,7 @@ const About = () => {
 						<p className="text-4xl font-bold inline border-b-4 text-gray-300 border-pink-600">
 							About
 						</p>
-						<p className="py-4">//Please check about me</p>
+						<p className="py-4">&#47;&#47;Please check about me</p>
 					</div>
 				</div>
 				<div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4">
@@ -25,7 +25,6 @@ const About = () => {
 								Hi. I'm Muhammed Hashim CP, nice to meet you. Please take a look
 								around.
 							</p>
-
 						</div>
 						<br />
 						<ul className="list-none flex flex-col items-center ">

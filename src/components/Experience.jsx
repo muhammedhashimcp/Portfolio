@@ -15,7 +15,7 @@ const Experience = () => {
 						<p className="text-4xl font-bold inline border-b-4 text-gray-300 border-pink-600">
 							Experience
 						</p>
-						<p className="py-4">//Check my experiences</p>
+						<p className="py-4">&#47;&#47;Check my experiences</p>
 					</div>
 				</div>
 				{experience.map((company) => <section className="max-w-[1000px]  p-5">

@@ -16,9 +16,6 @@ import {
 	MY_RESUME_URL
 } from '../config/config.js'
 const Navbar = () => {
-
- let fontSize = 24;
- let paddingVertical = 6;
 	const [nav, setNav] = useState(false);
 	const handleClick = () => setNav(!nav);
 	return (

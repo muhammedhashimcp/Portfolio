@@ -25,22 +25,8 @@ export default function Projects() {
 								>
 									<div className="overlay absolute top-0 left-0 right-0 bottom-0 w-full justify-center items-center rounded-t-md">
 										<div> 
-											{/* <a
-												href={d.githubLink}
-												// href=''
-												// onClick={() => handleClick(d.githubLink)}
-												target="_blank"
-												rel="noopener noreferrer"
-												className="text-5xl mx-2"
-											>
-												<i className="fab fa-github-square text-white hover:text-yellow-500"></i>
-											</a>  */}
 											<button
-												// href={d.githubLink}
-												// href=''
 												onClick={() => handleClick(d.githubLink)}
-												// target="_blank"
-												// rel="noopener noreferrer"
 												className="text-5xl mx-2"
 											>
 												<i className="fab fa-github-square text-white hover:text-yellow-500"></i>
@@ -58,7 +44,6 @@ export default function Projects() {
 										</div>
 									</div>
 								</div>
-
 								<div className="p-6">
 									<h4 className="text-center text-2xl font-bold mb-2">
 										{d.title}

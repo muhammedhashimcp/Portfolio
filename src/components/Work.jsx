@@ -1,13 +1,11 @@
 import React from 'react';
-
-
-import { FaGithub, FaLinkedin, FaEye, FaGlobe } from 'react-icons/fa';
+import { FaGithub, FaEye, FaGlobe } from 'react-icons/fa';
 import { Link } from 'react-scroll';
 import { HiArrowNarrowRight, HiArrowNarrowLeft } from 'react-icons/hi';
 import { Procoder } from '../assets/assets';
-const RealEstate=''
+const RealEstate = ''
 
-const Work = () => { 
+const Work = () => {
 	return (
 		<div
 			name="work"
@@ -18,7 +16,7 @@ const Work = () => {
 					<p className="text-4xl font-bold inline border-b-4 text-gray-300 border-pink-600">
 						Work
 					</p>
-					<p className="py-4">//Check out some of my recent work</p>
+					<p className="py-4">&#47;&#47;Check out some of my recent work</p>
 				</div>
 				{/* Container */}
 				<div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">

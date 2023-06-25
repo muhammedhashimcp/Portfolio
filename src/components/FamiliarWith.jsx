@@ -1,10 +1,7 @@
 import React from 'react';
 import { HiArrowNarrowLeft, HiArrowNarrowRight } from 'react-icons/hi';
 import { NavLink } from 'react-router-dom';
-// import skills from '../skillsDetails';
 import familiarWith from '../data/familiarWith'
-import { Firebase } from '../assets/assets';
-
 
 const FamiliarWith = () => {
 	return (
@@ -12,19 +9,16 @@ const FamiliarWith = () => {
 			className=" w-full   pb-10  bg-[#0a192f] text-gray-300"
 			name="familiarWith"
 		>
-			{/* Container */}
 			<div className=" w-full  max-w-[1000px] mx-auto p-4 flex flex-col flex-wrap justify-center ">
 				<div>
 					<p className="text-4xl font-bold inline border-b-4 border-pink-600  ">
 						Familiar With
 					</p>
-
 					<p className="py-4">
 						&#47;&#47; These are the some other technologies I am familiar
 						with
 					</p>
 				</div>
-
 				<div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-6  py-8  text-center mt-5">
 					{familiarWith.map((skill) => (
 						<div className={skill.hoverClass}>
