@@ -2,7 +2,10 @@ import React from 'react';
 import data from '../data/projectDetails';
 
 export default function Projects() {
-	return ( 
+	const handleClick = (uri) => {
+		window.open(uri, '_blank');
+	};
+	return (
 		<section
 			id="projects"
 			className="bg-gray-200 text-custom flex justify-center"
@@ -10,7 +13,7 @@ export default function Projects() {
 			<div className="w-large lg:w-medium 2xl:w-custom pb-24">
 				<h2 className="text-4xl font-bold">Projects</h2>
 				<article className="flex flex-wrap pt-12 justify-center md:justify-start">
-					{data.map((d) => { 
+					{data.map((d) => {
 						return (
 							<div
 								key={d.id}
@@ -21,15 +24,27 @@ export default function Projects() {
 									className="container h-56 bg-cover rounded-t-md bg-center relative z-10"
 								>
 									<div className="overlay absolute top-0 left-0 right-0 bottom-0 w-full justify-center items-center rounded-t-md">
-										<div>
-											<a
+										<div> 
+											{/* <a
 												href={d.githubLink}
+												// href=''
+												// onClick={() => handleClick(d.githubLink)}
 												target="_blank"
 												rel="noopener noreferrer"
 												className="text-5xl mx-2"
 											>
 												<i className="fab fa-github-square text-white hover:text-yellow-500"></i>
-											</a>
+											</a>  */}
+											<button
+												// href={d.githubLink}
+												// href=''
+												onClick={() => handleClick(d.githubLink)}
+												// target="_blank"
+												// rel="noopener noreferrer"
+												className="text-5xl mx-2"
+											>
+												<i className="fab fa-github-square text-white hover:text-yellow-500"></i>
+											</button>   
 											{d.liveLink && (
 												<a
 													href={d.liveLink}

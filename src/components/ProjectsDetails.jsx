@@ -2,7 +2,7 @@ import React from 'react';
 import { FaGithub, FaLinkedin, FaEye, FaGlobe } from 'react-icons/fa';
 import projects from '../data/projectDetails.js';
 
-const Details = () => {
+const ProjectDetails = () => {
 	return (
 		<div
 			name="projects"
@@ -28,7 +28,6 @@ const Details = () => {
 									{project.title}
 								</h2>
 							</div>
-
 							{/* Hover effects */}
 							<div className="hidden group-hover:block pt-3">
 								<span className="text-xl flex justify-center font-bold text-white tracking-wider">
@@ -37,12 +36,10 @@ const Details = () => {
 								<p className="px-2 text-white text-justify pt-1">
 									{project.desc}
 								</p>
-
 								<div className="pt-1 text-center">
 									<p className="px-2 text-white text-justify ">
-										// Tech Used:-
+										&#47;&#47; Tech Used &nbsp; &#58; &#45;
 									</p>
-
 									{/* <div className='inline justify-center'> */}
 									<div className=" flex  justify-between px-3 mt-1">
 										{project.techUsed.map((techUsed) => (
@@ -56,16 +53,20 @@ const Details = () => {
 									{/* </div> */}
 								</div>
 								<div className="mt-100 text-center">
-									<a href={project.liveLink}>
+									{project.liveLink && <a href={project.liveLink} target="_blank"
+										rel="noopener noreferrer">
 										<button className="text-center rounded-lg px-4 py-3 m-2 bg-[#333333] hover:bg-[#e9e96d] text-white hover:text-black font-bold text-lg">
 											<FaEye size={30} />
 										</button>
-									</a>
-									<a href={project.githubLink}>
-										<button className="text-center rounded-lg px-4 py-3 m-2 bg-[#333333] hover:bg-[#e9e96d] text-white hover:text-black font-bold text-lg">
-											<FaGithub size={30} />
-										</button>
-									</a>
+									</a>}
+									{project.githubLink &&
+										<a href={project.githubLink} target="_blank"
+											rel="noopener noreferrer">
+											<button className="text-center rounded-lg px-4 py-3 m-2 bg-[#333333] hover:bg-[#e9e96d] text-white hover:text-black font-bold text-lg">
+												<FaGithub size={30} />
+											</button>
+										</a>
+									}
 								</div>
 							</div>
 						</div>
@@ -76,4 +77,4 @@ const Details = () => {
 	);
 };
 
-export default Details;
+export default ProjectDetails;

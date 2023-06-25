@@ -7,17 +7,25 @@ import {
 	CSSImg,
 	Express,
 	GitHub,
+	GoogleCloud_Icon,
+	GraphQL_Icon,
 	HTML,
 	JS,
 	Jquery,
 	Mongo,
 	Mui,
+	Mysql_icon,
+	Nextjs_Logo,
 	Nginx,
 	Nodejs,
+	PSQL,
 	ReactImg,
 	Redux,
 	Sass,
+	SocketIO_Icon,
+	Swagger,
 	Tailwind,
+	TypeScript,
 } from '../assets/assets.js';
 
 // import HTML from '../assets/skillsImg/html.png';
@@ -124,6 +132,21 @@ let skills = [
 		hoverClass:
 			'shadow-md shadow-[#040c16] hover:shadow-blue-800 hover:scale-110 duration-700 rounded-lg',
 	},
+
+	{
+		img: TypeScript,
+		id: 1002,
+		title: 'TypeScript',
+		hoverClass:
+			'shadow-md shadow-[#040c16] hover:shadow-blue-800 hover:scale-110 duration-700 rounded-lg',
+	},
+	{
+		img: Nextjs_Logo,
+		id: 1002,
+		title: 'Nextjs',
+		hoverClass:
+			'shadow-md shadow-[#040c16] hover:shadow-white hover:scale-110 duration-700 rounded-lg',
+	},
 	{
 		img: Redux,
 		id: 1002,
@@ -131,15 +154,6 @@ let skills = [
 		hoverClass:
 			'shadow-md shadow-[#040c16] hover:shadow-violet-800 hover:scale-110 duration-700 rounded-lg',
 	},
-
-	{
-		img: AWS,
-		id: 1002,
-		title: 'AWS',
-		hoverClass:
-			'shadow-md shadow-[#040c16] hover:shadow-yellow-500 hover:scale-110 duration-700 rounded-lg',
-	},
-
 	{
 		img: GitHub,
 		id: 1002,
@@ -148,11 +162,62 @@ let skills = [
 			'shadow-md shadow-[#040c16] hover:shadow-white hover:scale-110 duration-700 rounded-lg',
 	},
 	{
+		img: AWS,
+		id: 1002,
+		title: 'AWS',
+		hoverClass:
+			'shadow-md shadow-[#040c16] hover:shadow-yellow-500 hover:scale-110 duration-700 rounded-lg',
+	},
+	{
+		img: GoogleCloud_Icon,
+		id: 1002,
+		title: 'GCP',
+		hoverClass:
+			'shadow-md shadow-[#040c16] hover:shadow-[#ea4335] hover:scale-110 duration-700 rounded-lg',
+	},
+
+	{
 		img: Nginx,
 		id: 1002,
 		title: 'Nginx',
 		hoverClass:
 			'shadow-md shadow-[#040c16] hover:shadow-green-600 hover:scale-110 duration-700 rounded-lg',
+	},
+
+	{
+		img: PSQL,
+		id: 1002,
+		title: 'PostgreSQL',
+		hoverClass:
+			'shadow-md shadow-[#040c16] hover:shadow-blue-400 hover:scale-110 duration-700 rounded-lg',
+	},
+	{
+		img: Mysql_icon,
+		id: 1002,
+		title: 'Mysql',
+		hoverClass:
+			'shadow-md shadow-[#040c16] hover:shadow-blue-800 hover:scale-110 duration-700 rounded-lg',
+	},
+	{
+		img: GraphQL_Icon,
+		id: 1002,
+		title: 'Graph QL',
+		hoverClass:
+			'shadow-md shadow-[#040c16] hover:shadow-pink-500 hover:scale-110 duration-700 rounded-lg',
+	},
+	{
+		img: SocketIO_Icon,
+		id: 1002,
+		title: 'Socket.io',
+		hoverClass:
+			'shadow-md shadow-[#040c16] hover:shadow-white hover:scale-110 duration-700 rounded-lg',
+	},
+	{
+		img: Swagger,
+		id: 1002,
+		title: 'Swagger',
+		hoverClass:
+			'shadow-md shadow-[#040c16] hover:shadow-green-400 hover:scale-110 duration-700 rounded-lg',
 	},
 ];
 

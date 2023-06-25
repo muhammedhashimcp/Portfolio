@@ -1,7 +1,7 @@
 import React from 'react';
 import { HiArrowNarrowRight } from 'react-icons/hi';
 // import { HiArrowNarrowRight } from 'react-icons/hi';
-import { FaGithub, FaLinkedin,FaEye } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaEye } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { CgFileDocument } from 'react-icons/cg';
@@ -28,7 +28,7 @@ const Home = () => {
 					I'am a{' '}
 					<span className="">
 						<Typewriter
-							words={['Full Stack Developer', 'Web Developer']}
+							words={['Full Stack Developer', 'Web Developer', 'MERN Stack Developer']}
 							loop={false}
 							cursor
 							cursorStyle="|"
@@ -38,11 +38,8 @@ const Home = () => {
 						/>
 					</span>
 				</h2>
-				<p className="text-white py-4 max-w-[700px]">
-					I’m a full-stack developer specializing in building (and
-					occasionally designing) exceptional digital experiences.
-					Currently, I’m focused on building responsive full-stack web
-					applications.
+				<p className="text-white py-4 max-w-[700px] text-justify">
+					I'm a full-stack developer specializing in building (and occasionally designing) exceptional digital experiences. Currently, my focus is on developing responsive full-stack web applications.
 				</p>
 				<div>
 					{/* social links */}

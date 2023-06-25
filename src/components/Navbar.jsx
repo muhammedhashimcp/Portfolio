@@ -4,12 +4,17 @@ import {
 	FaTimes,
 	FaGithub,
 	FaLinkedin,
-
 } from "react-icons/fa";
 
 import { CgFileDocument } from 'react-icons/cg';
 import { HiOutlineMail } from "react-icons/hi";
 import { Link } from "react-scroll";
+import {
+	MY_LINKEDIN_PROFILE,
+	MY_GITHUB_PROFILE,
+	MY_GMAIL_ACCOUNT,
+	MY_RESUME_URL
+} from '../config/config.js'
 const Navbar = () => {
 
  let fontSize = 24;
@@ -41,6 +46,11 @@ const Navbar = () => {
 				<li>
 					<Link to="projects" smooth={true} duration={500}>
 						Projects
+					</Link>
+				</li>
+				<li>
+					<Link to="experience" smooth={true} duration={500}>
+						Experience
 					</Link>
 				</li>
 				<li>
@@ -83,7 +93,6 @@ const Navbar = () => {
 					</Link>
 				</li>
 				<li className="py-6 text-4xl">
-					{' '}
 					<Link
 						onClick={handleClick}
 						to="skills"
@@ -94,7 +103,6 @@ const Navbar = () => {
 					</Link>
 				</li>
 				<li className="py-6 text-4xl">
-					{' '}
 					<Link
 						onClick={handleClick}
 						to="Projects"
@@ -105,7 +113,16 @@ const Navbar = () => {
 					</Link>
 				</li>
 				<li className="py-6 text-4xl">
-					{' '}
+					<Link
+						onClick={handleClick}
+						to="experience"
+						smooth={true}
+						duration={500}
+					>
+						Experience
+					</Link>
+				</li>
+				<li className="py-6 text-4xl">
 					<Link
 						onClick={handleClick}
 						to="contact"
@@ -121,32 +138,40 @@ const Navbar = () => {
 				<ul>
 					<li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-500 bg-blue-600 ">
 						<a
+							target="_blank"
+							rel="noopener noreferrer"
 							className="flex justify-between items-center w-full text-gray-300 pl-2"
-							href="https://www.linkedin.com/in/muhammed-hashim-9aa2a9143/"
+							href={MY_LINKEDIN_PROFILE}
 						>
 							LinkedIn <FaLinkedin size={30} />
 						</a>
 					</li>
 					<li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-500 bg-[#333333] ">
 						<a
+							target="_blank"
+							rel="noopener noreferrer"
 							className="flex justify-between items-center w-full text-gray-300 pl-2"
-							href="https://github.com/muhammedhashimcp"
+							href={MY_GITHUB_PROFILE}
 						>
 							Github <FaGithub size={30} />
 						</a>
 					</li>
 					<li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-500 bg-[#6fc2b0] ">
 						<a
+							target="_blank"
+							rel="noopener noreferrer"
 							className="flex justify-between items-center w-full text-gray-300 pl-2"
-							href="mailto:cpmohdhashim@gmail.com"
+							href={`mailto:${MY_GMAIL_ACCOUNT}`}
 						>
 							Email <HiOutlineMail size={30} />
 						</a>
 					</li>
 					<li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-500 bg-[#565f69] ">
 						<a
+							target="_blank"
+							rel="noopener noreferrer"
 							className="flex justify-between items-center w-full text-gray-300 pl-2"
-							href="https://firebasestorage.googleapis.com/v0/b/muhammed-hashim-portfolio.appspot.com/o/resume%2Fmuhammedhashimcp-resume.pdf?alt=media&token=8b3dd284-8a7f-4c39-9d12-142503182aea"
+							href={MY_RESUME_URL}
 						>
 							Resume <CgFileDocument size={30} />
 						</a>

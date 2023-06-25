@@ -2,6 +2,8 @@ import React from 'react';
 import {  Route, Routes } from 'react-router-dom';
 import FamiliarWith from './FamiliarWith';
 import SkillSet from './SkillSet';
+import InterestedToLearn from './InterestedToLearn';
+import ToolsUsed from './ToolsUsed';
 
 
 const Skills = () => {
@@ -11,12 +13,14 @@ const Skills = () => {
 			name="skills"
 		>
 			<Routes>
-				<Route path="" element={<SkillSet />} />
+				<Route path="/" element={<SkillSet />} />
 				<Route path="/skills" element={<SkillSet />} />
 				<Route path="/familiar-with" element={<FamiliarWith />} />
+				<Route path="/toolsUsed" element={<ToolsUsed />} />
+				{/* <Route path="/interestedToLearn" element={<InterestedToLearn />} /> */}
 			</Routes>
 		</div>
 	);
-};
+}; 
 
 export default Skills;
