@@ -42,7 +42,7 @@ const About = () => {
 					</div>
 					<div>
 						<p className="text-justify">
-							As an entry-level developer with one year of experience, I am dedicated to building high-quality software solutions that positively impact people's lives. I have worked with a diverse range of clients, including individuals, small businesses, and large enterprises, gaining valuable experience across different project scopes. My primary focus is on developing tailored software solutions that precisely meet the unique requirements of each client. <br /> <br />
+							As an entry-level developer with 7 months plus of experience, I am dedicated to building high-quality software solutions that positively impact people's lives. I have worked with a diverse range of clients, including individuals, small businesses, and large enterprises, gaining valuable experience across different project scopes. My primary focus is on developing tailored software solutions that precisely meet the unique requirements of each client. <br /> <br />
 							Imagine having a dedicated software expert at your disposal, ready to transform your ideas into reality. With my expertise, I can optimize your processes, automate tasks, and revolutionize your workflow. My goal is to improve efficiency, enhance user experiences, and unlock new possibilities for your business. Whether you need assistance in streamlining your operations or harnessing the power of technology, I am here to make it happen.<br /> <br />
 							Let's collaborate and harness the potential of technology together. Having a skilled software expert by your side can drive your business towards success. I am passionate about leveraging my knowledge and skills to help you overcome challenges, find innovative solutions, and achieve your goals. Reach out to me, and let's explore how we can use software to propel your business forward.
 						</p>
@@ -69,7 +69,7 @@ const About = () => {
 							duration={1000}
 							className="group border-2 py-3 px-3 md:px-6 my-2 flex items-center justify-center text-white w-fit cursor-pointer"
 						>
-							<span className="text-2xl text-pink-600 font-bold ">1+ </span>&nbsp;  Experience
+							<span className="text-2xl text-pink-600 font-bold ">7m+ </span>&nbsp;  Experience
 							<span className="group-hover:rotate-90 duration-500">
 								<HiArrowNarrowRight className="ml-3 text-white" />
 							</span>
