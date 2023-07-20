@@ -6,7 +6,7 @@ const MY_TWITTER_PROFILE = 'https://twitter.com/cpmohdhashim';
 
 const MY_PHONE_NUMBER = 8943053582;
 const MY_RESUME_URL =
-	'https://firebasestorage.googleapis.com/v0/b/muhammed-hashim-portfolio.appspot.com/o/resume%2Fmuhammedhashimcp-resume.pdf?alt=media&token=933c10d0-959c-40d0-9531-c7915d2acc82';
+	'https://firebasestorage.googleapis.com/v0/b/muhammed-hashim-portfolio.appspot.com/o/resume%2Fmuhammed%20hashim%20cp%20resume.pdf?alt=media&token=8151224b-22ad-48d3-9105-aaf836c55e0f';
 const MY_PORTFOLIO = 'https://muhammedhashimportfolio.netlify.app/';
 export {
 	MY_LINKEDIN_PROFILE,
